@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C36AE8CC29D8A9AE0074B4B1 /* FocusAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36AE8CB29D8A9AE0074B4B1 /* FocusAIApp.swift */; };
-		C36AE8CE29D8A9AE0074B4B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36AE8CD29D8A9AE0074B4B1 /* ContentView.swift */; };
 		C36AE8D029D8A9AF0074B4B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36AE8CF29D8A9AF0074B4B1 /* Assets.xcassets */; };
 		C36AE8D329D8A9AF0074B4B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36AE8D229D8A9AF0074B4B1 /* Preview Assets.xcassets */; };
 		C36AE8D529D8A9AF0074B4B1 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36AE8D429D8A9AF0074B4B1 /* Persistence.swift */; };
@@ -16,6 +15,20 @@
 		C36AE8E229D8A9B10074B4B1 /* FocusAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36AE8E129D8A9B10074B4B1 /* FocusAITests.swift */; };
 		C36AE8EC29D8A9B10074B4B1 /* FocusAIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36AE8EB29D8A9B10074B4B1 /* FocusAIUITests.swift */; };
 		C36AE8EE29D8A9B10074B4B1 /* FocusAIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36AE8ED29D8A9B10074B4B1 /* FocusAIUITestsLaunchTests.swift */; };
+		C36AE8FD29D8C2200074B4B1 /* util.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36AE8FC29D8C2200074B4B1 /* util.swift */; };
+		C36AE8FF29D8C5750074B4B1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36AE8FE29D8C5750074B4B1 /* MainView.swift */; };
+		C3CE9CCD29D8CF58009C8465 /* TaskListMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CE9CCC29D8CF58009C8465 /* TaskListMainView.swift */; };
+		C3CE9CCF29D8D3B2009C8465 /* DayTimeLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CE9CCE29D8D3B2009C8465 /* DayTimeLineView.swift */; };
+		C3CE9CD129D8F3DA009C8465 /* EventBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CE9CD029D8F3DA009C8465 /* EventBox.swift */; };
+		C3CE9CD329D8FAFB009C8465 /* DateFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CE9CD229D8FAFB009C8465 /* DateFormatters.swift */; };
+		C3CE9CD529D92720009C8465 /* HackathonControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CE9CD429D92720009C8465 /* HackathonControl.swift */; };
+		C3CE9CD729D936A6009C8465 /* TaskAEView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CE9CD629D936A6009C8465 /* TaskAEView.swift */; };
+		C3CE9CD929D93BE9009C8465 /* EffortOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CE9CD829D93BE9009C8465 /* EffortOption.swift */; };
+		C3CE9CDC29D94348009C8465 /* FocusAITask.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CE9CDB29D94348009C8465 /* FocusAITask.swift */; };
+		C3CE9CDE29D94A5E009C8465 /* FocusAIBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CE9CDD29D94A5E009C8465 /* FocusAIBlock.swift */; };
+		C3CE9CE029D960DF009C8465 /* ScheduleRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CE9CDF29D960DF009C8465 /* ScheduleRequest.swift */; };
+		C3CE9CE229D9E435009C8465 /* ScheduleResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CE9CE129D9E435009C8465 /* ScheduleResponse.swift */; };
+		C3CE9CE429D9F6F1009C8465 /* ScheduleFailure.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CE9CE329D9F6F1009C8465 /* ScheduleFailure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +51,6 @@
 /* Begin PBXFileReference section */
 		C36AE8C829D8A9AE0074B4B1 /* FocusAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C36AE8CB29D8A9AE0074B4B1 /* FocusAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusAIApp.swift; sourceTree = "<group>"; };
-		C36AE8CD29D8A9AE0074B4B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C36AE8CF29D8A9AF0074B4B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C36AE8D229D8A9AF0074B4B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C36AE8D429D8A9AF0074B4B1 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +60,20 @@
 		C36AE8E729D8A9B10074B4B1 /* FocusAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocusAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C36AE8EB29D8A9B10074B4B1 /* FocusAIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusAIUITests.swift; sourceTree = "<group>"; };
 		C36AE8ED29D8A9B10074B4B1 /* FocusAIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusAIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C36AE8FC29D8C2200074B4B1 /* util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = util.swift; sourceTree = "<group>"; };
+		C36AE8FE29D8C5750074B4B1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C3CE9CCC29D8CF58009C8465 /* TaskListMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListMainView.swift; sourceTree = "<group>"; };
+		C3CE9CCE29D8D3B2009C8465 /* DayTimeLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTimeLineView.swift; sourceTree = "<group>"; };
+		C3CE9CD029D8F3DA009C8465 /* EventBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventBox.swift; sourceTree = "<group>"; };
+		C3CE9CD229D8FAFB009C8465 /* DateFormatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatters.swift; sourceTree = "<group>"; };
+		C3CE9CD429D92720009C8465 /* HackathonControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackathonControl.swift; sourceTree = "<group>"; };
+		C3CE9CD629D936A6009C8465 /* TaskAEView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAEView.swift; sourceTree = "<group>"; };
+		C3CE9CD829D93BE9009C8465 /* EffortOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffortOption.swift; sourceTree = "<group>"; };
+		C3CE9CDB29D94348009C8465 /* FocusAITask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusAITask.swift; sourceTree = "<group>"; };
+		C3CE9CDD29D94A5E009C8465 /* FocusAIBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusAIBlock.swift; sourceTree = "<group>"; };
+		C3CE9CDF29D960DF009C8465 /* ScheduleRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleRequest.swift; sourceTree = "<group>"; };
+		C3CE9CE129D9E435009C8465 /* ScheduleResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleResponse.swift; sourceTree = "<group>"; };
+		C3CE9CE329D9F6F1009C8465 /* ScheduleFailure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleFailure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +124,21 @@
 		C36AE8CA29D8A9AE0074B4B1 /* FocusAI */ = {
 			isa = PBXGroup;
 			children = (
+				C3CE9CDA29D9433D009C8465 /* DTO */,
 				C36AE8CB29D8A9AE0074B4B1 /* FocusAIApp.swift */,
-				C36AE8CD29D8A9AE0074B4B1 /* ContentView.swift */,
 				C36AE8CF29D8A9AF0074B4B1 /* Assets.xcassets */,
 				C36AE8D429D8A9AF0074B4B1 /* Persistence.swift */,
 				C36AE8D629D8A9AF0074B4B1 /* FocusAI.xcdatamodeld */,
 				C36AE8D129D8A9AF0074B4B1 /* Preview Content */,
+				C36AE8FC29D8C2200074B4B1 /* util.swift */,
+				C36AE8FE29D8C5750074B4B1 /* MainView.swift */,
+				C3CE9CCC29D8CF58009C8465 /* TaskListMainView.swift */,
+				C3CE9CCE29D8D3B2009C8465 /* DayTimeLineView.swift */,
+				C3CE9CD029D8F3DA009C8465 /* EventBox.swift */,
+				C3CE9CD229D8FAFB009C8465 /* DateFormatters.swift */,
+				C3CE9CD429D92720009C8465 /* HackathonControl.swift */,
+				C3CE9CD629D936A6009C8465 /* TaskAEView.swift */,
+				C3CE9CD829D93BE9009C8465 /* EffortOption.swift */,
 			);
 			path = FocusAI;
 			sourceTree = "<group>";
@@ -131,6 +166,18 @@
 				C36AE8ED29D8A9B10074B4B1 /* FocusAIUITestsLaunchTests.swift */,
 			);
 			path = FocusAIUITests;
+			sourceTree = "<group>";
+		};
+		C3CE9CDA29D9433D009C8465 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				C3CE9CDB29D94348009C8465 /* FocusAITask.swift */,
+				C3CE9CDD29D94A5E009C8465 /* FocusAIBlock.swift */,
+				C3CE9CDF29D960DF009C8465 /* ScheduleRequest.swift */,
+				C3CE9CE129D9E435009C8465 /* ScheduleResponse.swift */,
+				C3CE9CE329D9F6F1009C8465 /* ScheduleFailure.swift */,
+			);
+			path = DTO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +310,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3CE9CE029D960DF009C8465 /* ScheduleRequest.swift in Sources */,
+				C3CE9CCD29D8CF58009C8465 /* TaskListMainView.swift in Sources */,
 				C36AE8D529D8A9AF0074B4B1 /* Persistence.swift in Sources */,
-				C36AE8CE29D8A9AE0074B4B1 /* ContentView.swift in Sources */,
+				C3CE9CCF29D8D3B2009C8465 /* DayTimeLineView.swift in Sources */,
+				C3CE9CD729D936A6009C8465 /* TaskAEView.swift in Sources */,
+				C3CE9CD929D93BE9009C8465 /* EffortOption.swift in Sources */,
+				C3CE9CDE29D94A5E009C8465 /* FocusAIBlock.swift in Sources */,
+				C3CE9CD529D92720009C8465 /* HackathonControl.swift in Sources */,
+				C3CE9CD329D8FAFB009C8465 /* DateFormatters.swift in Sources */,
+				C36AE8FD29D8C2200074B4B1 /* util.swift in Sources */,
+				C3CE9CDC29D94348009C8465 /* FocusAITask.swift in Sources */,
 				C36AE8D829D8A9AF0074B4B1 /* FocusAI.xcdatamodeld in Sources */,
+				C36AE8FF29D8C5750074B4B1 /* MainView.swift in Sources */,
+				C3CE9CE229D9E435009C8465 /* ScheduleResponse.swift in Sources */,
 				C36AE8CC29D8A9AE0074B4B1 /* FocusAIApp.swift in Sources */,
+				C3CE9CE429D9F6F1009C8465 /* ScheduleFailure.swift in Sources */,
+				C3CE9CD129D8F3DA009C8465 /* EventBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,8 +485,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FocusAI/Preview Content\"";
+				DEVELOPMENT_TEAM = 5BK8U2TU6V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Focus.AI needs to access your calendar to schedule activities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -437,7 +499,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.clps.FocusAI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clps.FocusAIv1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -453,8 +515,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FocusAI/Preview Content\"";
+				DEVELOPMENT_TEAM = 5BK8U2TU6V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Focus.AI needs to access your calendar to schedule activities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -465,7 +529,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.clps.FocusAI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clps.FocusAIv1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
